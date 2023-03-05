@@ -83,6 +83,7 @@ aside i,
   background-color: white;
   border: solid #3ec0fc 2px;
 }
+.btn3:hover,
 .nav button:hover {
   background-color: #3ec0fc;
   color: white;
@@ -177,7 +178,10 @@ h4,
   font-size: 0.9rem;
   border-radius: 5px;
   box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
-    rgba(225, 225, 225, 0.205) 1px 1px 1px;
+    rgba(225, 225, 225, 0.205) 0px 1px 0px;
+}
+.grid2 div:hover {
+  background-color: whitesmoke;
 }
 .img1 {
   width: 5.5rem;
@@ -252,9 +256,13 @@ input {
   margin: 0.3rem 0 0.7rem 0;
   padding-left: 2%;
   outline-color: #3ec0fc;
+  border-radius: 4px;
 }
 input {
-  height: 1.5rem;
+  height: 35px;
+}
+label {
+  font-size: 1.2rem;
 }
 .a {
   max-width: 540px;
@@ -488,7 +496,7 @@ footer > div {
     margin-top: 4px;
   }
 }
-@media screen and (min-width: 640px) and (max-width: 721px) {
+@media screen and (min-width: 640px) and (max-width: 727px) {
   .hero {
     max-width: 310px;
     height: 23rem;
